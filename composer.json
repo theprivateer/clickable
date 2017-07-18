@@ -1,0 +1,27 @@
+{
+  "name": "theprivateer/clickable",
+  "description": "A simple utility to convert URLs and emails in a string to clickable HTML anchors",
+  "authors" : [{
+      "name" : "Phil Stephens",
+      "email" : "emailtheprivateer@gmail.com"
+    }
+  ],
+  "keywords" : [
+    "URL", "HTML"
+  ],
+  "homepage" : "https://github.com/theprivateer/clickable",
+  "license" : [
+    "MIT"
+  ],
+  "require": {
+    "php": ">=5.5.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Privateer\\Clickable\\": "src/"
+    },
+    "files": [
+      "src/functions.php"
+    ]
+  }
+}
